@@ -32,7 +32,7 @@ public class WebClass {
         js.executeScript("window.scrollBy(0,300)", "");
         driver.findElement(By.xpath("//input[@id=\"termsofservice\"]")).click();
         driver.findElement(By.xpath("//button[@id=\"checkout\"]")).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
     public void book() throws IOException {
         WebElement book=driver.findElement(By.partialLinkText("Books"));
